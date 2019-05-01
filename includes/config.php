@@ -17,8 +17,8 @@ date_default_timezone_set('America/Los_Angeles');
  * @todo none
  */
 
-//Here are the keys for the server: seattlecentral.edu
-$siteKey = "6LfPOJ8UAAAAADaIB3JjrWRf6cRN8ojNIYXnmPfd";
-$secretKey = "6LfPOJ8UAAAAAOtKhjcLm9N5a2-xipdHQFewG8Hh";
+//Here are the keys for the server: dreamhost.com V2
+$siteKey = "6Le5PZ8UAAAAAKc46eGzw4kYtVFQ5SMILUabqt4v";
+$secretKey = "6Le5PZ8UAAAAAIx5bya7Y5H-gk3MMaim47-Oj_dR";
 
 

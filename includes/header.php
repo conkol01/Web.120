@@ -19,7 +19,7 @@
   <h1><a href="index.php"><i class="logo fa <?=$logo?>"<?=$logo_color?>></i>Constanze's Web 120 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
-        <?=make_Links($nav)?>
+        <?=makeLinks($nav1)?>
 <!--
       <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
@@ -32,4 +32,4 @@
     </ul>
   </nav>
 </header>
-        <h2 class="pageID"><?=$PageID?></h2>
+<!--        <h2 class="pageID"><?=$PageID?></h2>-->

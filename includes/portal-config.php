@@ -11,9 +11,9 @@ Used to store all of our WEB120 configuration information
 
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
-echo THIS_PAGE;
+//echo THIS_PAGE;
 
-die;
+//die;
 switch(THIS_PAGE){
 
     case 'index.php':
@@ -54,8 +54,8 @@ $nav1['contact.php'] = "Contact Constanze";
 
 
 
-$nav ['index.php']
-/here we are creating a function to generate  links and keep the highlight on the current page //
+//$nav ['index.php']
+///here we are creating a function to generate  links and keep the highlight on the current page //
 //<li><a href="index.php" class="selected">Welcome</a></li>
 //      <li><a href="big/index.php">Big</a></li>
 //      <li><a href="AAI/aia.php">AIA</a></li>
