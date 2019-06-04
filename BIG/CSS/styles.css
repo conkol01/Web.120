@@ -1,0 +1,182 @@
+
+/* BIG WEB120 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    background-color:lightskyblue;
+}
+
+div.wrapper,footer {
+    width:90%;
+    margin:auto;
+    background-color:#fff;
+    overflow:auto;
+}
+
+section {
+    float:left;
+    width:64%;
+    padding-left:2.5%;
+    
+}
+
+aside {
+    float:right;
+    width:26%;
+    padding-right:2.5%;
+    
+}
+
+header h1 {
+    text-align:right;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    padding:.5em;
+}
+
+p {
+    margin:1em .8em;
+}
+
+div.dot iframe {
+    border:0;
+    overflow:no;
+}
+
+.video-container {
+    margin: 0 auto;
+}
+
+.logo{
+    color: #000;
+}
+
+/* START Global Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+/* END Global Embed Responsively Rules! */
+
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+}
+
+footer p {
+    padding:2em;
+}
+
+footer a {
+    color:red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color:black;
+}
+    
+
+/* Phat PHONE Rules! */
+@media all and (max-width:860px) {
+    div.wrapper {
+        background-color:#d2b88f;
+    }
+    
+    /* Show Agenda View Calendar */
+/*
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+*/
+    /* Hide Month View Calendar */
+/*
+    div.embed-container.month-view {
+        display:none;
+    }
+*/
+
+    .video-container{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*youtube*/
+
+embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+/*calendar*/
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Maps*/
+
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+/*        // This is the aspect ratio*/
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+/*Webcam*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

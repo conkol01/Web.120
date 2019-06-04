@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Multi Column Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            text-align:center;
+        }
+
+        section {
+            box-sizing:border-box;
+            display:inline-block;
+            width:20%;
+            height:200px;
+            background:red;
+            margin:10px;
+            text-align:left;
+        }
+
+        @media all and (max-width:768px) {
+            section {
+                width:40%;
+            }
+        }
+
+        @media all and (max-width:425px) {
+            section {
+                display:block;
+                width:90%;
+                margin:10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="name">
+    Section 1
+</section>
+<section class="name">
+    Section 2
+</section>
+<section class="name">
+    Section 3
+</section>
+<section class="name">
+    Section 4
+</section>
+</body>
+</html>
