@@ -74,9 +74,11 @@ div.embed-container iframe {
     height: 100%;
 }
 
+/*
 div.embed-container.agenda-view {
     display:none;
 }
+*/
 
 /* END Global Embed Responsively Rules! */
 
