@@ -17,25 +17,53 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Constanze's WEB120 Title Page";
+        $title = "Weclome to Recharge Yoga";
         $logo='fa-home';
         $PageID='Welcome';
     break;
 
-    case 'contact.php':
-        $title = "Constanze's WEB120 Title Page";
-        $logo='fa-pencil-square-o';
-        $logo_color = ' style="color:#0f0"';
-        $PageID='Contact Constanze';
-    break;
-        
-    case 'aia.php':
-        $title = "Constanze's WEB120 Title Page";
+    case 'companies.php':
+        $title = "Yoga for Companies";
         $logo='fa-pencil-square-o';
         $logo_color = ' style="color:#00f"';
-        $PageID='Contact Constanze';
+        $PageID='Yoga for Companies';
+    break;
+        case 'individual.php':
+        $title = "Yoga for Indivduals";
+        $logo='fa-pencil-square-o';
+        $logo_color = ' style="color:#00f"';
+        $PageID='Yoga for Individuals';
     break;
         
+        case 'retreat.php':
+        $title = "Yoga Retreats";
+        $logo='fa-pencil-square-o';
+        $logo_color = ' style="color:#00f"';
+        $PageID='Yoga Retreats';
+    break;
+        
+        case 'about.php':
+        $title = "About Elizabeth Rabusseau";
+        $logo='fa-pencil-square-o';
+        $logo_color = ' style="color:#00f"';
+        $PageID='About Elizabeth';
+    break;
+         case 'FAQ.php':
+        $title = "FAQ";
+        $logo='fa-pencil-square-o';
+        $logo_color = ' style="color:#0f0"';
+        $PageID='FAQ';
+    break;
+        
+        
+    case 'contact.php':
+        $title = "Contact Recharge Yoga";
+        $logo='fa-pencil-square-o';
+        $logo_color = ' style="color:#0f0"';
+        $PageID='Contact Elizabeth';
+    break;
+        
+    
 //    add all other pages that are created in here 
         
     default:
@@ -45,12 +73,14 @@ switch(THIS_PAGE){
 }
 
 
-$nav1['index.php'] = "Welcome";
-$nav1['big/index.php'] = "Big";
-$nav1['aia.php'] = "AIA";
-$nav1['flowchart.php'] = "Flowchart";
-$nav1['fp/index.php'] = "Final Project";
-$nav1['contact.php'] = "Contact Constanze";
+$nav1['index.php'] = "Home";
+$nav1['fp/index.php'] = "Home";
+$nav1['companies.php'] = "Yoga for Companies";
+$nav1['individual.php'] = "Yoga for Individuals";
+$nav1['retreat.php'] = "Yoga Retreats";
+$nav1['about.php'] = "About Me";
+$nav1['FAQ.php'] = "FAQ";
+$nav1['contact.php'] = "Contact ELizabeth";
 
 
 

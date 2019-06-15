@@ -20,7 +20,7 @@
 #EDIT THE FOLLOWING:
 $toAddress = "constanze.kolbe@gmail.com";  //place your/your client's email address here
 $toName = "Constanze Kolbe"; //place your client's name here
-$website = "http://sfdeeptissue.com/web120/index.php";  //place NAME of your client's website here
+$website = "http://sfdeeptissue.com/web120/fp/index.php";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
@@ -70,7 +70,7 @@ if ($response != null && $response->success)
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
-			How Did You Hear About Us?:<br />
+			How Did You Hear About Recharge Yoga?:<br />
 			<select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
 				<option value="">Choose How You Heard</option>
 				<option value="Phone">Phone</option>
@@ -85,10 +85,10 @@ if ($response != null && $response->success)
 	<div>	
 		<fieldset>
 			<legend>What Services Are You Interested In?</legend>
-			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
-			<input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
+			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> Yoga for Individuals <br />
+			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Yoga for Corporations <br />
+			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Yoga Retreats <br />
+			<input type="checkbox" name="Interested_In[]" value="Lollipops" /> Private Classes <br />
 			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
 		</fieldset>
 	</div>

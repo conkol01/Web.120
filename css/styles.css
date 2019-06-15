@@ -1,31 +1,124 @@
 
-.divTable{
-	display: table;
-	width: 100%;
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
+body {
+        text-align:center;
+    background-color: #FAC05E;
+    font-family: 'Muli', sans-serif;
+        }
+
+.wrapper {background-color: white;
+    
+    
 }
 
+.
+.banner {width:100%;
+    height: 20%;
+
+   
+}
+
+
+footer {background-color: #FAC05E;
+    
+    
+}
+.about {
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+/*    margin-top: 10%;*/
+}
+
+.about2 {width:100%;
+     margin:0 auto;
+   margin-top: 10px;
+    margin-bottom: 10px;
+        
+}
+
+.about3 {width:40%;
+     margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.img-container {
+position: relative;
+box-sizing:border-box;
+display:inline-block;
+width:20%;
+background:#EE6352;
+/*        margin:15px;*/
+margin-right: 15px;
+/*        text-align:left;*/
+/*    padding: 10px 10px 10px 10px;*/
+        }
+
+.caption    {
+background-color: yellow;
+width:20%;
+margin-right: 15px;
+display: inline-block;
+text-align: center;
+/*width: 100%;*/
+  position: absolute;
+  top: 10%;
+  left:0;
+  transform: translate(-50%, -50%);
+  color: white;
+    font-size: 15px;
+
+/*
+position: absolute; 
+top: 10%;                
+left: 0;                 
+width: 100%;
+text-align: center;
+*/
+
+
+
+}
+
+
+
+.image {margin: 0 auto;
+width: 250px;
+    height: 250px;
+/*    height:333px;*/
+    background: #EE6352;
+
+}
+
+
+@media all and (max-width:768px) {
+    section {
+    width:40%;
+            }
+        }
+
+@media all and (max-width:425px) {
+    section {
+    display:block;
+    width:90%;
+    margin:10px auto;
+            }
+        }
+
+
+/*Media Query for the second page */
+
+@media all and (max-width:768px) {
+    .about2 {width:100%;}
+    .about3 {width:100%;}
+        }
+
+
+@media all and (max-width:425px) {
+    .about2  {display:block;
+                width:90%;
+                margin:10px auto;}
+    .about3 {display:block;
+            width:90%;
+            margin:10px auto;}
+        }

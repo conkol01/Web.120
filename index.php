@@ -1,66 +1,104 @@
 <?php include 'includes/header.php'?>
-
 <!--
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset='utf-8'>
+     
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/nav.css"/>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
 <head>
-<title>Constanze's Web 120 Portal Page</title>
-<meta name="viewport" content="width=device-width" />
-<meta name="robots" content="noindex,nofollow" />
-<meta charset="utf-8">
-<script src="https://use.fontawesome.com/6a71565c22.js"></script>
-<link rel="stylesheet" href="css/nav.css" />
-<link rel="stylesheet" href="css/portal.css" />
-<link rel="stylesheet" href="css/form.css" />
+    <title>Restore Yoga</title>
 </head>
-
-<body>
- START WRAPPER 
-<div class="wrapper">
-<header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i>Constanze's Web 120 Portal</a></h1>
-  <nav>
-    <ul class="topnav" id="myTopnav">
-      <li><a href="index.php" class="selected">Welcome</a></li>
-      <li><a href="big/index.php">Big</a></li>
-      <li><a href="AAI/aia.php">AIA</a></li>
-      <li><a href="flowchart.php">Flowchart</a></li>
-      <li><a href="fp/index.php">Final Project</a></li>
-      <li><a href="contact.php">Contact Constanze</a></li>
-      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
-    </ul>
-  </nav>
-</header>
+    
+<div class="banner">
+    
+    <a href=index.php><img id="logo" src="images/logo.png" alt="logo"></a>
+    
+    </div>
+    
+    <div id='cssmenu'>
+<ul>
+   <li class='active'><a href='#'>Home</a></li>
+   <li><a href='#'>Yoga for Companies</a></li>
+   <li><a href='#'>Yoga for Individuals</a></li>
+    <li><a href='#'>Yoga Retreats</a></li>
+   <li><a href='#'>About Me</a></li>
+    <li><a href='#'>FAQ</a></li>
+    <li><a href='#'>Contact</a></li>
+</ul>
+</div>
 -->
+<body>
+<div class="wrapper">
+<div class="about">
+<h1>Welcome to Recharge Yoga!</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. 
+</p>
+</div> 
+    
+
         
-<!-- START LEFT COL -->
-<section>
- <h2 class="pageID">Welcome</h2>
-
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
- <img src="images/constanze.jpg" class="desktop" alt="Constanze" />
- <img src="images/UW.jpg" class="phone" alt="UW campus" />
- <p>My name is Constanze Kolbe and I am student in the certificate program in Computers and Technology. I am originally from Germany, but have been living in the US since 2010, when I moved to Bloomington, Indiana to pursue a PHD in History. After having worked for a while as an academic in Seattle, I decided that I want to shift from the past ( History) to understanding which technologies will shape the future and how. I want to bridge my past background in History and languages with a new career in technology: this is why I am learning HTML!I am particularly interested in UC Research positions leveraging my extensive experience in research and languages.</p> 
+<section class="img-container">
+<a href=individuals.php><img id="Yoga for Individuals" src="images/yoga-individuals-cropped.jpg" alt="Yoga for Individuals"></a>
+<!--<div class="caption">Yoga for Individuals</div>-->
 </section>
-<!-- END LEFT COL -->
 
-<!-- START RIGHT COL -->
-<aside>
- <h3>Right Column</h3>
- <img src="images/hiking.jpg" class="tablet" alt="Hiking in the Cascades" />
- 
-    <!---Start Form---->
+
+
+
+<section class="img-container">
+<a href=corporate.php><img id="Yoga for Corporate" 
+src="images/corporate_2_cropped.jpg" alt="Yoga for Corporate">
+</a>   
+<!--<div class="caption">Yoga for Companies</div>-->
+</section>
     
+<section class="img-container">
+ <a href=retreats.php><img id="Yoga Retreats" src="images/Yoga%20at%20Shishi%20Beach-cropped.jpg" alt="Yoga Retreats"></a>
+<!--<div class="caption">Yoga Retreats</div>-->
+</section>
     
+<section class="img-container">
+    <a href=about.php><img id="About me" src="images/about_me_2_cropped.jpg" alt="About me"></a>
+<!--    <div class="caption">About Me</div>-->
+</section>
     
-   
- 
+
+<section class="img-container">
+<p>Yoga for Individuals. Do you want to relax during a lunchhour Yoga Session?</p>
+</section>
+
+
+<section class="img-container">
+<p>Yoga for Coompanies. Start your Sprint Planning with a Yoga Hour</p>
+</section>
+
+<section class="img-container">
+<p>Yoga Retreats. We offer individualized Retreats for Team Building and Individuals.</p>
+</section>  
+
+<section class="img-container">
+<p>About Me. Learn more about my Philosophy and approach to Yoga. </p>
+</section>
     
-    <!---end form---->
-    
-    
-</aside>
-<!-- END RIGHT COL -->
- 
+</div> <!--    end wrapper-->    
+<!--
+<footer>
+<div></div>
+  <p><small>&copy; 2019 - <?=date('Y')?> by <a href="http://sfdeeptissue.com/web120/index.php" target="_blank">Constanze </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+</footer>
+-->
+</body>
+
+</html>
 <?php include 'includes/footer.php'?>
 
