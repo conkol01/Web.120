@@ -1,0 +1,120 @@
+
+body {
+text-align:center;
+background-color: white;
+font-family: 'Muli', sans-serif;}
+
+.wrapper {background-color: white;
+margin-top: 10%;
+margin-bottom: 10%;   
+}
+
+
+.banner {width:100%;
+height: 20%;
+background-color: #FAC05E;
+}
+
+footer {background-color: #FAC05E;
+    
+    
+}
+.about {
+text-align: left;
+background-color: white;
+width:60%;
+margin:0 auto;
+line-height: 1.6;
+/*    font-size: */
+/*    margin-top: 10%;*/
+}
+
+.about2 {width:60%;
+text-align: left;
+margin:0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+line-height: 1.6;       
+}
+
+/*contact form about*/
+.about4 {width:60%;
+text-align: left;
+margin:0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+line-height: 1.6;   
+}
+
+
+.img-container {
+position: relative;
+box-sizing:border-box;
+display:inline-block;
+width:20%;
+/*background:#EE6352;*/
+/*        margin:15px;*/
+margin-right: 15px;
+/*        text-align:left;*/
+/*    padding: 10px 10px 10px 10px;*/
+        }
+
+/*
+.caption    {
+background-color: yellow;
+width:20%;
+margin-right: 15px;
+display: inline-block;
+text-align: center;
+width: 100%;
+  position: absolute;
+  top: 10%;
+  left:0;
+  transform: translate(-50%, -50%);
+  color: white;
+    font-size: 15px;
+}
+*/
+
+
+/*give image 100% and dont have height */
+/*.image {margin: 0 auto;*/
+/*width: 100%;*/
+/*    height: 250px;*/
+/*    height:333px;*/
+/*    background: #EE6352;*/
+
+/*}*/
+
+
+@media all and (max-width:768px) {
+    .img-container {
+    width:40%;
+            }
+        }
+
+@media all and (max-width:425px) {
+    .img-container {
+    display:block;
+    width:90%;
+    margin:10px auto;
+            }
+        }
+
+
+/*Media Query for the second page */
+
+@media all and (max-width:768px) {
+    .about2 {width:100%;}
+    .img-container {width:100%;}
+        }
+
+
+@media all and (max-width:425px) {
+    .about2  {display:block;
+                width:90%;
+                margin:10px auto;}
+    .img-container {display:block;
+            width:90%;
+            margin:10px auto;}
+        }

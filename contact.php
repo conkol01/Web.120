@@ -35,7 +35,7 @@
 <body>
 <div class="wrapper">
 <div class="about">
-<section class="about2">
+<section class="about4">
 <?php include 'includes/multiple.php'?>
     
 </section>

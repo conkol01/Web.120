@@ -41,55 +41,42 @@
 <div class="wrapper">
 <div class="about">
 <h1>Welcome to Recharge Yoga!</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. 
 </p>
 </div> 
     
 
         
 <section class="img-container">
-<a href=individuals.php><img id="Yoga for Individuals" src="images/yoga-individuals-cropped.jpg" alt="Yoga for Individuals"></a>
+<a href=individuals.php><img id="Yoga" src="images/yoga-individuals-cropped.jpg" alt="Yoga for Individuals"></a>
+<p><a href="individuals.php" target="">Yoga for Individuals. Do you want to relax during a lunchhour Yoga Session?</a></p>
 <!--<div class="caption">Yoga for Individuals</div>-->
 </section>
 
 
 
-
 <section class="img-container">
-<a href=corporate.php><img id="Yoga for Corporate" 
+<a href=corporate.php><img id="Yoga" 
 src="images/corporate_2_cropped.jpg" alt="Yoga for Corporate">
 </a>   
+<p><a href="companies.php" target=""> Yoga for Companies. Start your Sprint Planning with a Yoga Hour</a></p>
 <!--<div class="caption">Yoga for Companies</div>-->
 </section>
     
 <section class="img-container">
- <a href=retreats.php><img id="Yoga Retreats" src="images/Yoga%20at%20Shishi%20Beach-cropped.jpg" alt="Yoga Retreats"></a>
+ <a href=retreats.php><img id="Yoga" src="images/Yoga%20at%20Shishi%20Beach-cropped.jpg" alt="Yoga Retreats"></a>
+<p><a href="retreats.php" target="">Yoga Retreats. We offer individualized Retreats for Team Building and Individuals.</a></p>
 <!--<div class="caption">Yoga Retreats</div>-->
 </section>
     
 <section class="img-container">
-    <a href=about.php><img id="About me" src="images/about_me_2_cropped.jpg" alt="About me"></a>
+<a href=about.php><img id="Yoga" src="images/about_me_2_cropped.jpg" alt="About me"></a>
+<p><a href="about.php" target=""> About Me. Learn more about my Philosophy and approach to Yoga.</a></p>
 <!--    <div class="caption">About Me</div>-->
 </section>
-    
+  
 
-<section class="img-container">
-<p>Yoga for Individuals. Do you want to relax during a lunchhour Yoga Session?</p>
-</section>
-
-
-<section class="img-container">
-<p>Yoga for Coompanies. Start your Sprint Planning with a Yoga Hour</p>
-</section>
-
-<section class="img-container">
-<p>Yoga Retreats. We offer individualized Retreats for Team Building and Individuals.</p>
-</section>  
-
-<section class="img-container">
-<p>About Me. Learn more about my Philosophy and approach to Yoga. </p>
-</section>
-    
 </div> <!--    end wrapper-->    
 <!--
 <footer>

@@ -1,3 +1,6 @@
+<?php include 'includes/header.php'?>
+
+<!--
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +28,7 @@
     <li><a href='#'>Contact</a></li>
 </ul>
 </div>
+-->
 <body>
 <div class="wrapper">
 <div class="about">
@@ -35,12 +39,12 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Curabitur quis est urna. </p>
 </section>
     
-<section class="about3">
+<section class="about2">
 <h2>My Philosophy</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 
     </section>   
-<section class="about3">
+<section class="about2">
 <h2>My Certification</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu elementum erat. Quisque bibendum vitae mauris nec iaculis. Nunc convallis dignissim felis ut placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 
@@ -50,11 +54,14 @@
 </div> 
 
 </div> <!--    end wrapper-->    
+<!--
 <footer>
   <p><small>&copy; 2019 - <?=date('Y')?> by <a href="http://sfdeeptissue.com/web120/index.php" target="_blank">Constanze </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
 </footer>
+-->
 </body>
 
 </html>
+<?php include 'includes/footer.php'?>
 
 
